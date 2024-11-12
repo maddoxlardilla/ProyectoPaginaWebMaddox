@@ -1,9 +1,9 @@
 .Menu-Cabecera{background-color: #a4cdd7; width: 100%;}
 *{margin: 0; padding: 0;}
 .CajaColumnas{display: flex; justify-content: space-around; align-items: center; gap: 10px;}
-.Columna{flex: 1; background-color: rgb(121, 182, 134); border: 1px solid black; text-align: center;}
-.ColorAzulClaro{background-color: rgb(129, 162, 182);}
-.ColorMorado{background-color: rgba(183, 154, 209, 0.726);}
+.Columna{flex: 1; border: 4px solid #17C2FB; text-align: center;}
+.ColorAzulClaro{background-color: #04C0FF;}
+.ColorAzulClaro2{background-color: #17C2FB;}
 .Banner2{background-color: khaki; width: 100%; height: 120px;}
 .MenuSuperior li{display: inline; padding: 3px; border-right: solid 1px black;}
 .MenuSuperior{text-transform: uppercase; font-weight: bold; text-align: right; padding: 20px;}
@@ -11,3 +11,7 @@
 li a{text-decoration: none;}
 .MenuSuperior li:last-child{border-right: none;}
 .Banner{background-image:url("../imagenes/612_6214d15f6ab89.png"); width: 100%; height: 350px; background-repeat: no-repeat; background-size: cover; background-position-y: 30%;}
+.Formulario{width: 80%; margin: auto;}
+form{padding: 15px;}
+input{width: 100%; padding: 15px; border-radius: 5px;}
+textarea{width: 100%; height: 100px;}
