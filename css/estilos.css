@@ -1,11 +1,11 @@
 .Menu-Cabecera{background-color: #a4cdd7; width: 100%;}
 *{margin: 0; padding: 0;}
 .CajaColumnas{display: flex; justify-content: space-around; align-items: center; gap: 10px;}
-.Columna{flex: 1; border: 4px solid #17C2FB; text-align: center;}
+.Columna{flex: 1; text-align: center;}
 .ColorAzulClaro{background-color: #04C0FF;}
 .ColorAzulClaro2{background-color: #17C2FB;}
 .Banner2{background-color: khaki; width: 100%; height: 120px;}
-.MenuSuperior li{display: inline; padding: 3px; border-right: solid 1px black;}
+.MenuSuperior li{display: inline; padding: 3px;}
 .MenuSuperior{text-transform: uppercase; font-weight: bold; text-align: right; padding: 20px;}
 .MenuSuperior li a:hover{color: #72a9b5; text-decoration: underline;}
 li a{text-decoration: none;}
@@ -13,5 +13,13 @@ li a{text-decoration: none;}
 .Banner{background-image:url("../imagenes/612_6214d15f6ab89.png"); width: 100%; height: 350px; background-repeat: no-repeat; background-size: cover; background-position-y: 30%;}
 .Formulario{width: 80%; margin: auto;}
 form{padding: 15px;}
-input{width: 100%; padding: 15px; border-radius: 5px;}
+input[type=text]{width: 100%; padding: 15px; border-radius: 5px;}
 textarea{width: 100%; height: 100px;}
+input[type=submit]{width: 100%; background-color:#1ba7e74d ; padding: 10px; color: #000000; }
+input[type=submit]:hover{width: 100%; background-color:#d6c9164d ; padding: 10px; color: #2798f5; cursor: pointer;}
+textarea{width: 100%; height: 100px;}
+li a img{width: 28px;}
+li a img:hover{opacity: 30%}
+.Derechos{padding: 15px;}
+.BordeDerecho li{ border-right: solid 1px black;}
+.alineartexto{text-align: center;}
